@@ -1,0 +1,44 @@
+body {
+  color: white;
+  font-family: 'Anek Telugu', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 300%;
+}
+
+div {
+  color: yellow;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-text {
+  font-family: 'Anek Telugu', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  animation: fadeIn 4s;
+}
+
+body {
+  background: #fce97f;
+  animation: fadeBackground 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeBackground {
+  from {
+    background-color: #ffffff;
+  }
+  to {
+    background-color: dodgerblue;
+  }
+}
+
+title {
+  display: none;
+}
