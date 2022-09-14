@@ -1,3 +1,3 @@
 # code-is-fun
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/code-is-fun)
+[A side project I have](https://code-is-fun.stackblitz.io/)
