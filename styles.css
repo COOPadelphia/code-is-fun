@@ -3,6 +3,7 @@ body {
   font-family: 'Anek Telugu', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 300%;
+  background-color: dodgerblue;
 }
 
 div {
@@ -22,21 +23,6 @@ div {
   font-family: 'Anek Telugu', sans-serif;
   font-family: 'Roboto', sans-serif;
   animation: fadeIn 4s;
-}
-
-body {
-  background: #fce97f;
-  animation: fadeBackground 4s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeBackground {
-  from {
-    background-color: #ffffff;
-  }
-  to {
-    background-color: dodgerblue;
-  }
 }
 
 title {
